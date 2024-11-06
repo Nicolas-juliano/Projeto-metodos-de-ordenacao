@@ -70,6 +70,7 @@ int main() {
 	//criação de uma lista com input como nós
 	Node* head = NULL;
 	int a; 
+	
 	printf("Digite os números: \n");
 	//lê números separados por espaços até encontrar EOF(end of file) que ocorre com CTRL D ou CTRL Z:
 	while (scanf("%d", &a) != EOF) { 
