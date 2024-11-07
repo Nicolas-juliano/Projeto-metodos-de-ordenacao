@@ -1,0 +1,22 @@
+• Os arquivos de código que implementam algoritmos de 
+ordenação usando usando listas encadeadas fazem a leitura 
+de input usando como ponto de parada um indicador do tipo 
+EOF (end of file) que é inserido com CTRL D (unix) ou CTRL Z
+(windows).
+
+• O arquivo "Contains_Duplicate" é a implementação e resolução
+de um problema do LeetCode utilizando o método de ordenação
+Insertion sort. Link: https://leetcode.com/problems/contains-duplicate/description/?envType=problem-list-v2&envId=sorting&difficulty=EASY
+Premissa do problema: retorna "true" se e somente se existe 
+algum número duplicado em um array. A leitura é feita também
+com EOF.
+
+• O arquivo "Majority_Element" é a resolução de um problema do 
+LeetCode utilizando também Insertion sort durante a implementação.
+Link: https://leetcode.com/problems/majority-element/?envType=problem-list-v2&envId=sorting&difficulty=EASY
+Premissa do problema: o código retorna o número majoritário em um
+array, considerando que majoritário é o número que aparece n/2 vezes
+ou mais no array, sendo n o tamanho dele, e que todo array inserido
+terá um majoritário. A leitura também é feita com EOF.
+
+
